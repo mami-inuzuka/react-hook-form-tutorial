@@ -2,9 +2,13 @@ import React from 'react';
 
 function App() {
   return (
-    <div className="App">
-      
-    </div>
+    <>
+      <form>
+        <input name="FirstName" placeholder="FirstName" />
+        <input name="LastName" placeholder="LastName" />
+        <input type="submit" />
+      </form>
+    </>
   );
 }
 
