@@ -1,0 +1,28 @@
+extends:
+  - 'eslint:recommended'
+  - 'plugin:@typescript-eslint/recommended'
+  - 'plugin:react/recommended'
+  - 'plugin:import/recommended'
+  - 'plugin:import/typescript'
+  - 'prettier'
+plugins:
+  - 'unused-imports'
+rules:
+  {
+    '@typescript-eslint/no-non-null-assertion': 'warn',
+    '@typescript-eslint/no-var-requires': 'off',
+    'no-case-declarations': 'off',
+    'no-console': 'error',
+    'no-empty-pattern': 'off',
+    'no-empty': 'off',
+    'no-irregular-whitespace': 'off',
+    'no-undef': 'off',
+    'no-useless-escape': 'off',
+    'react/display-name': 'off',
+    'react/jsx-no-target-blank': 'off',
+    'react/prop-types': 'off',
+    'unused-imports/no-unused-imports': 'error',
+  }
+settings:
+  react:
+    version: 'detect'
